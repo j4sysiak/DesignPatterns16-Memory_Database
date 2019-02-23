@@ -52,7 +52,7 @@ public class Database {
 
 		String url = String.format("jdbc:mysql://localhost:%d/patterns", 3306);
 
-		con = DriverManager.getConnection(url, "root", "letmein");
+		con = DriverManager.getConnection(url, "root", "Warszawa5584");
 	}
 	
 	public void disconnect() {
