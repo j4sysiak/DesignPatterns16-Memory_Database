@@ -1,13 +1,8 @@
 package pl.jaceksysiak.designpatterns.demo1.controller;
 
-import java.sql.SQLException;
-import java.util.List;
-
-import pl.jaceksysiak.designpatterns.demo1.model.DAOFactory;
 import pl.jaceksysiak.designpatterns.demo1.model.Database;
 import pl.jaceksysiak.designpatterns.demo1.model.Model;
 import pl.jaceksysiak.designpatterns.demo1.model.Person;
-import pl.jaceksysiak.designpatterns.demo1.model.PersonDAO;
 import pl.jaceksysiak.designpatterns.demo1.view.AppListener;
 import pl.jaceksysiak.designpatterns.demo1.view.CreateUserEvent;
 import pl.jaceksysiak.designpatterns.demo1.view.CreateUserListener;
